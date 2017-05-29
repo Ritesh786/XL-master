@@ -85,7 +85,7 @@ protected void onCreate(Bundle savedInstanceState) {
         String[] countries = getResources().getStringArray(R.array.CityNames);
         String[] genders = getResources().getStringArray(R.array.gender);
         ArrayAdapter<String> adapter =
-                new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_spinner_dropdown_item, countries);
+                new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1, countries);
 
 
         ArrayAdapter<String> gendadapter =
